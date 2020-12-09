@@ -11,3 +11,4 @@ testData:
     a: a
     b: b
   defaultPath: "home/"
+  baseUrl: "https://example.com"
