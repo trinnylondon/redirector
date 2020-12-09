@@ -1,0 +1,13 @@
+displayName: Redirector
+type: middleware
+import: github.com/trinnylondon/redirector
+summary: Redirect to a path based on cookie or header values. 
+testData:
+  redirectCookies:
+    - "someName"
+  redirectHeaders:
+    - "someName"
+  redirectionMap:
+    a: a
+    b: b
+  defaultPath: "home/"
